@@ -8,15 +8,15 @@ def version():
     return v[1:-1]
 
 setup(
-  name = 'corecluster',
+  name = 'corecluster-algorithm-id-uuid',
   packages = find_packages(exclude=['config', 'config.*']),
-  version = '16.10.10',
-  description = 'CloudOver core IaaS system',
-  author = 'Marta Nabozny',
-  author_email = 'martastrzet@gmail.com',
+  version = '16.11.01',
+  description = 'Default ID generator for CoreCluster',
+  author = 'Maciej Nabozny',
+  author_email = 'maciej.nabozny@cloudover.io',
   url = 'http://cloudover.org/corecluster/',
   download_url = 'https://github.com/cloudOver/CoreCluster/archive/master.zip',
-  keywords = ['corecluster', 'cloudover', 'cloud'],
+  keywords = ['corecluster'],
   classifiers = [],
-  install_requires = ['corenetwork', 'django-timedeltafield', 'redis'],
+  install_requires = ['corecluster'],
 )
