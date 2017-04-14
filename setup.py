@@ -10,7 +10,7 @@ def version():
 setup(
   name = 'corecluster-algorithm-id-uuid',
   packages = find_packages(exclude=['config', 'config.*']),
-  version = '16.12.01',
+  version = '17.04.01',
   description = 'Default ID generator for CoreCluster',
   author = 'Maciej Nabozny',
   author_email = 'maciej.nabozny@cloudover.io',
